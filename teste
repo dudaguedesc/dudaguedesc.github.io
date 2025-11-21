@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfólio da Duda</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background-color: #f0f0f0; }
+        h1 { color: #333; }
+        .galeria { display: flex; justify-content: center; gap: 20px; padding: 20px; }
+        .desenho { border: 5px solid white; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); }
+        img { max-width: 300px; }
+    </style>
+</head>
+<body>
+    <h1>Olá, teste!</h1>
+    <p>Aqui a arte encontra o código.</p>
+    
+    <div class="galeria">
+        <div class="desenho">
+            <h3>Meu Desenho 1</h3>
+            <p>Feito com tinta digital</p>
+        </div>
+        <div class="desenho">
+            <h3>Meu Desenho 2</h3>
+            <p>Estudo de Luz e Sombra</p>
+        </div>
+    </div>
+</body>
+</html>
